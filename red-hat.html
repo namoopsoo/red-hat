@@ -1,0 +1,88 @@
+<tw-storydata name="seventy seven" startnode="1" creator="Twine" creator-version="2.3.16" ifid="AAA4D525-18AB-46DA-A267-5DC5D6299EDD" zoom="1" format="Harlowe" format-version="3.2.3" options="" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css"></style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-passagedata pid="1" name="one" tags="" position="412,186" size="100,100">here is the beginning. Or is it [[here-&gt;arrival]].
+</tw-passagedata><tw-passagedata pid="2" name="arrival" tags="" position="544,317" size="100,100">Okay this red hat is the beginning. Maybe I [[changed my mind-&gt;one]]?
+
+No this feels right. I saw this red hat in [[Virginia-&gt;raleigh]] once.
+
+</tw-passagedata><tw-passagedata pid="3" name="raleigh" tags="" position="415,486" size="100,100">(set: $hat_on_head to false)
+what was I looking at (link: &quot;so intensely?&quot;)[==
+
+oh thats right there was a bench in my (link: &quot;view&quot;)[==
+
+with the (link: &quot;red hat &quot;)[==
+
+Was it worth [[picking it up-&gt;red hat]] or [[leaving it alone]]?
+</tw-passagedata><tw-passagedata pid="4" name="red hat" tags="" position="415,636" size="100,100">(set: $picked_up_hat to true)
+we make (link: &quot;choices all day long. &quot;)[==
+choices we know we can&#39;t (link: &quot;undo&quot;)[==
+And (link: &quot;yet&quot;)[== we are comfortable with that.
+but we make them anyway because [[time is linear after all]] 
+</tw-passagedata><tw-passagedata pid="5" name="leaving it alone" tags="" position="535,636" size="100,100">(set: $picked_up_hat to false)
+Next thing I know this [[man dressed in some kind of uniform]] approaches me in a hurry.</tw-passagedata><tw-passagedata pid="6" name="time is linear after all" tags="" position="535,786" size="100,100">So I picked up that (link: &quot;hat&quot;)[==
+Looking at the front, there were no distinct (link: &quot;markings&quot;)[==
+Except for a (link: &quot;semicolon ;&quot;)[==
+Usually you expect the (link: &quot;parenthesis to go along&quot;)[==
+But there was no sarcasm about [[this hat]] . </tw-passagedata><tw-passagedata pid="7" name="this hat" tags="" position="535,936" size="100,100">I had an itch to [[put on the hat]], but maybe I should just [[throw it in my bag]].</tw-passagedata><tw-passagedata pid="8" name="put on the hat" tags="" position="460,1086" size="100,100">(set: $hat_in_bag to false)
+(set: $hat_on_head to true)
+Next thing I know this [[man dressed in some kind of uniform]] approaches me in a hurry.</tw-passagedata><tw-passagedata pid="9" name="throw it in my bag" tags="" position="610,1086" size="100,100">(set: $hat_in_bag to true)
+(set: $hat_on_head to false)
+Next thing I know this [[man dressed in some kind of uniform]] approaches me in a hurry.</tw-passagedata><tw-passagedata pid="10" name="man dressed in some kind of uniform" tags="" position="714,1273" size="100,100">(if: $hat_on_head is true)[
+
+Hey you&#39;re finally here. Good. Let&#39;s [[get you to work]]
+]
+(else: ) [Hey there. Do you [[have a moment?]]
+
+]</tw-passagedata><tw-passagedata pid="11" name="get you to work" tags="" position="639,1423" size="100,100">He says, &quot;So are you ready to get cracking?&quot;
+[[yes I&#39;m ready]]
+[[What exactly are we doing again?]]
+</tw-passagedata><tw-passagedata pid="12" name="have a moment?" tags="" position="918,1424" size="100,100">
+(if: $picked_up_hat is false)[
+He picks up the hat. And he hands it to me.
+And says &quot;Ok, glad you&#39;re here, let&#39;s [[get you to work]]&quot;
+
+](else: )[He stares at my plastic [[see through bag]]. 
+
+]
+</tw-passagedata><tw-passagedata pid="13" name="yes I&#39;m ready" tags="" position="564,1573" size="100,100">
+&quot;Ok glad you are embracing the locksmith way, symbolized by the doorknob we keep on our hats, as a (link: &quot;reminder&quot;)[==
+&quot;of door knobs, because those are on (link: &quot;doors usually&quot;)[==
+&quot;A we fix them&quot;
+&quot;Ok [[let&#39;s get going]]&quot;</tw-passagedata><tw-passagedata pid="14" name="What exactly are we doing again?" tags="" position="714,1573" size="100,100">&quot;Well you see the doorknob on the hat you&#39;re wearing there?&quot;
+&quot;We are locksmiths and we fix locks that are stuck, but as I like to put it, we //open doors to new opportunities// &quot;
+
+&quot;Ok [[let&#39;s get going]]&quot;</tw-passagedata><tw-passagedata pid="15" name="let&#39;s get going" tags="" position="714,1723" size="100,100">After several hours of pretending to be a locksmith, you find yourself eating lunch on a bunch in the scorching (link: &quot;heat&quot;)[==
+
+You&#39;re sweating so much you feel compelled to take off the hat to wipe off the sweat.
+(link: &quot;take off the hat&quot;)[==
+But you find yourself falling suddenly tired and you (link: &quot;lose consciousness&quot;)[==
+[[Wake up]]
+</tw-passagedata><tw-passagedata pid="16" name="Wake up" tags="" position="409,1874" size="100,100">You see a (link: &quot;bench&quot;)[==
+There&#39;s some kind of hat on the (link: &quot;bench&quot;)[==
+;)
+[[start over-&gt;one]]
+</tw-passagedata><tw-passagedata pid="17" name="see through bag" tags="" position="834,1573" size="100,100">Why is my bag see through. That&#39;s so (link: &quot;not ideal&quot;)[==
+&quot;So if you put your hat on we can get started.&quot; 
+
+
+[[put on that hat]]
+[[stare at him some more]]</tw-passagedata><tw-passagedata pid="18" name="put on that hat" tags="" position="834,1723" size="100,100">&quot;Great, I see you&#39;re ready to [[get you to work]]&quot;</tw-passagedata><tw-passagedata pid="19" name="stare at him some more" tags="" position="1006,1709" size="100,100">&quot;Hey my friend, what are you staring at?&quot;
+&quot;I get uncomfortable when people stare&quot;
+[[keep staring]]
+[[blink]]</tw-passagedata><tw-passagedata pid="20" name="keep staring" tags="" position="889,1878" size="100,100">&quot;At some point you&#39;re going to have to blink you know&quot;
+
+[[blink]]
+[[keep your eyes open no matter the pain]]</tw-passagedata><tw-passagedata pid="21" name="blink" tags="" position="1029,1873" size="100,100">&quot;There you go. You blinked. You know what that means. &quot;
+I guess that means I have to [[put on that hat]]? </tw-passagedata><tw-passagedata pid="22" name="keep your eyes open no matter the pain" tags="" position="889,2028" size="100,100">&quot;Do you need some eye drops?&quot;
+[[take the eye drops]]
+[[don&#39;t take no eye drops]]</tw-passagedata><tw-passagedata pid="23" name="take the eye drops" tags="" position="814,2178" size="100,100">&quot;What kind of eye drops would you like?&quot;
+&quot;I have [[red eye drops]] oh and I also have [[blue eye drops]].&quot;</tw-passagedata><tw-passagedata pid="24" name="don&#39;t take no eye drops" tags="" position="1038,2174" size="100,100">Eventually the irritation is just too (link: &quot;too much to bare&quot;)[==
+You [[lose consciousness-&gt;Wake up]] </tw-passagedata><tw-passagedata pid="25" name="red eye drops" tags="" position="739,2328" size="100,100">&quot;What do you think this is the (link: &quot;Matrix?&quot;)[==
+&quot;Well you watch too many movies. I don&#39;t actually have red eye drops I was just kidding.&quot;
+&quot;I guess you can have [[half of my sandwich]] &quot;</tw-passagedata><tw-passagedata pid="26" name="blue eye drops" tags="" position="889,2328" size="100,100">&quot;Looks like that made you [[blink]]. That&#39;s fine it&#39;s normal.&quot;</tw-passagedata><tw-passagedata pid="27" name="half of my sandwich" tags="" position="739,2478" size="100,100">As you put the sandwich into your eyes, you feel the (link: &quot;mayonaise&quot;)[==
+It is refreshing somehow. But next you feel the (link: &quot;pickles&quot;)[==
+It burns! Finally after most of the bread is now crumbled all over your forehead, but you manage to eat most of it through your eyes somehow (link: &quot;he asks..&quot;)[==
+&quot;That&#39;s weird. I literally never saw someone eat half a sandwich that way.&quot;
+He is backing away (link: &quot;slowly&quot;)[==
+And then he just runs away and his scream becomes more and more distant, eventually (link: &quot;fading away completely&quot;)[==
+That&#39;s it. Is that finally it? Glorious [[victory]] .</tw-passagedata><tw-passagedata pid="28" name="victory" tags="" position="739,2628" size="100,100">That&#39;s about it!
+[[start over-&gt;one]]</tw-passagedata></tw-storydata>
+
